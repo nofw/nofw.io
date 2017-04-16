@@ -5,11 +5,17 @@
                 <h5 class="white-text">{{ .Site.Title }}</h5>
                 <p class="grey-text text-lighten-4">{{ .Site.Params.description }}</p>
             </div>
+            <div class="col l2 offset-l4 hide-on-med-and-down">
+                <a href="https://www.netlify.com">
+                    <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg">
+                </a>
+            </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
-            Made with <i class="material-icons red-text">favorite</i> by <a class="orange-text text-lighten-3" href="https://github.com/sagikazarmark">{{ .Site.Params.author }}</a>
+            Made with <i class="material-icons red-text" style="vertical-align: middle;">favorite</i> by <a class="orange-text text-lighten-3" href="https://github.com/sagikazarmark">{{ .Site.Params.author }}</a>
+            <a class="grey-text text-lighten-4 right" href="https://github.com/nofw/nofw/blob/master/LICENSE">MIT License</a>
         </div>
     </div>
 </footer>
