@@ -1,0 +1,15 @@
+<footer class="page-footer {{ .Site.Params.Footer.Color | default "orange" -}}">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">{{ .Site.Title }}</h5>
+                <p class="grey-text text-lighten-4">{{ .Site.Params.description }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Made with <i class="material-icons red-text">favorite</i> by <a class="orange-text text-lighten-3" href="https://github.com/sagikazarmark">{{ .Site.Params.author }}</a>
+        </div>
+    </div>
+</footer>

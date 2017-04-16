@@ -1,0 +1,15 @@
+baseURL = "https://nofw.io"
+languageCode = "en"
+title = "Nofw"
+theme = "mater"
+
+
+[params]
+    description = "Nofw is a set of component integration tools and a skeleton application for building apps without frameworks."
+    author = "Márk Sági-Kazár"
+
+
+[[menu.main]]
+    name = "Github"
+    url = "https://github.com/nofw"
+    weight = -200
