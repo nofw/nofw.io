@@ -2,6 +2,7 @@ baseURL = "https://nofw.io"
 languageCode = "en"
 title = "Nofw"
 theme = "mater"
+googleAnalytics = "UA-97477241-1"
 
 
 [params]
