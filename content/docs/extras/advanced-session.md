@@ -92,7 +92,7 @@ services:
         image: "memcached:alpine"
 ```
 
-Once the environment is configured, you need to add the following configuration to your [container](docs/components/dependency-injection/).
+Once the environment is configured, you need to add the following configuration to the [container](docs/components/dependency-injection/).
 
 ``` php
 <?php
