@@ -3,7 +3,7 @@ title: "Docs"
 description: "Nofw documentation"
 subtitle: "Even a non-framework requires a documentation"
 date: "2017-04-17T03:56:09+02:00"
-url: "/docs/"
+
 menu:
     docs:
         name: "Home"

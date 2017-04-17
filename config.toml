@@ -8,7 +8,21 @@ googleAnalytics = "UA-97477241-1"
     description = "Nofw is a set of component integration tools and a skeleton application for building apps without frameworks."
     author = "Márk Sági-Kazár"
 
+
+    [params.docs.menu]
+        activeColor = "light-blue"
+
 [[menu.main]]
     name = "Github"
     url = "https://github.com/nofw"
     weight = -200
+
+[[menu.docs]]
+    name = "Components"
+    identifier = "components"
+    weight = -170
+
+[[menu.docs]]
+    name = "Extras"
+    identifier = "extras"
+    weight = -160
