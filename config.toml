@@ -4,11 +4,9 @@ title = "Nofw"
 theme = "mater"
 googleAnalytics = "UA-97477241-1"
 
-
 [params]
     description = "Nofw is a set of component integration tools and a skeleton application for building apps without frameworks."
     author = "Márk Sági-Kazár"
-
 
 [[menu.main]]
     name = "Github"
