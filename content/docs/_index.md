@@ -14,29 +14,27 @@ menu:
 
 ## What is Nofw?
 
-Nofw (shamelessly following Symfony's example) is two things:
+At a very high level Nofw is a philosophy of not using a framework for application development. When it comes to actual code, Nofw is two things:
 
-1. A set of component integration tools which lets you writting your own framework
-2. A skeleton application presenting how those components can work together
+1. A set of component integration tools
+2. A skeleton application built using well-known, high quality components
 
-You can copy and modify the skeleton, switch components, it's all up to you. In the end your framework should be tailored to you or your specific use case.
+You can copy and modify the skeleton, replace the components with preferred ones, it's all up to you. In the end your application should be tailored to your taste or your specific use case.
 
 
 ## Why no framework?
 
-There is nothing wrong about frameworks except they nearly never fit your use case perfectly.
+Frameworks are great. They provide flexibility which makes building all kinds of applications fast and easy. They are (usually) well-documented so using a framework can be a good choice for teams or those who just started learning web development.
 
-They try to be general solutions to all kinds of problems and because of that they hide complex magic under the hood and cover it with configuration. The problem is that even with configuration and extension points they still cannot think of Every Use Case Ever&trade; which leads to ugly hacks, lots of research, etc.
+Unfortunately, (as everything in this world) frameworks have downsides too: they are never made for your use case. They try to provide solutions to all kinds of problems by hiding some complex magic under the hood and covering it with configuration and extension points, but thinking of Every Use Case Ever&trade; is simply impossible which leads to ugly hacks, lots of research, etc.
 
-The other thing with magic is that it costs time....**response time**. Let's say you are writting a statistical REST API which needs to be blazing fast. This won't work if you have an event-driven layer in the background doing all kinds of magic which you might actually not need.
+Another serious problem with frameworks is that magic costs time....**response time**. Let's say you are working on a statistical REST API which needs to be blazing fast. It's quite hard to achieve if you have an event-driven layer in the background doing all kinds of magic which you might actually not need.
 
-On the other hand the flexibility provided by frameworks can be useful if you want to quickly setup and build an application. Another advantage of frameworks is that they are (usually) well-documented which is almost never true for home made frameworks. When working in a team this documentation can be handy for newcomers, ease the learning curve, etc.
-
-All in all, the flexibility comes at a price and you may not (always) want to pay it. Frameworks are not the evil, you just need to pick the right tools for the job.
+All in all, the flexibility and simplicity provided by frameworks comes at a price which you may not (always) want to pay. Frameworks are not the evil, but sometimes they are just not the right tools for the job.
 
 
 ## Docs? Are you nuts?
 
-As said above, documentation is vital to understand the concepts. Although not being a framework, there are quire a few things to document here as well.
+Although Nofw is not a framework with lots of shiny features, there are quite a few things to document here as well.
 
-This documentation is a bit different though: it contains lots of instructions about **building** the framework, not about configuration and stuff. The instructions mostly build on the nofw skeleton, but they are general enough to be applied to any custom framework.
+This documentation is a bit different though: it contains lots of instructions and examples about adding features to the application, not about configuration and stuff. The instructions mostly build on the Nofw skeleton, but they are general enough to be applied to any custom setup.
