@@ -14,7 +14,7 @@ Because of this high importance, there are quite a few, mostly SaaS solutions ou
 If you don't find your desired service in the list, feel free to open an issue or send a PR.
 
 
-### Logging or error handling
+## Logging or error handling
 
 There are two common patterns for error monitoring:
 
@@ -32,7 +32,7 @@ Nofw comes with [Whoops](http://filp.github.io/whoops/) as it's [error handler](
 **TODO: improve this section**
 
 
-### Integration
+## Integration
 
 {{< collapsible >}}
     {{% collapsible-item title="Airbrake" %}}

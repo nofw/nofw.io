@@ -12,7 +12,7 @@ menu:
         weight: -210
 ---
 
-### What is Nofw?
+## What is Nofw?
 
 Nofw (shamelessly following Symfony's example) is two things:
 
@@ -22,7 +22,7 @@ Nofw (shamelessly following Symfony's example) is two things:
 You can copy and modify the skeleton, switch components, it's all up to you. In the end your framework should be tailored to you or your specific use case.
 
 
-### Why no framework?
+## Why no framework?
 
 There is nothing wrong about frameworks except they nearly never fit your use case perfectly.
 
@@ -35,7 +35,7 @@ On the other hand the flexibility provided by frameworks can be useful if you wa
 All in all, the flexibility comes at a price and you may not (always) want to pay it. Frameworks are not the evil, you just need to pick the right tools for the job.
 
 
-### Docs? Are you nuts?
+## Docs? Are you nuts?
 
 As said above, documentation is vital to understand the concepts. Although not being a framework, there are quire a few things to document here as well.
 

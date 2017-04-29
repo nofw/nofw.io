@@ -12,7 +12,7 @@ The basic [session middleware](docs/components/middleware-pipeline/) works fine 
 Luckily, PHP provides a [SessionHandlerInterface](http://php.net/manual/en/class.sessionhandlerinterface.php) which allows us to extend the built-in behaviour.
 
 
-### Session handlers
+## Session handlers
 
 Sessions usually contain temporary data (eg. current user ID), so it's no surprise that common cache solutions (like [Memcached](https://memcached.org/) and [Redis](https://redis.io/)) became popular targets as session storage. Fortunately (or not) there are quite a few cache abstractions out there for PHP:
 
@@ -27,7 +27,7 @@ Nofw comes with Doctrine Cache preinstalled as (unfortunately) [PHP-DI's definit
 In the meantime, check [PHP Cache](http://php-cache.com/) out which is a great set of cache implementations compliant with both PSR-6 and PSR-16.
 
 
-### Integration
+## Integration
 
 Two popular cache backends (Memcached and Redis) are mentioned above, their integration will be covered in this part.
 
@@ -53,7 +53,7 @@ if ($container->has(\SessionHandlerInterface::class)) {
 We will get back to the container configuration later.
 
 
-#### Memcached
+### Memcached
 
 Memcached has some requirements which MUST be installed on the host (and are of course preinstalled in the [Docker base image](docs/environment/)).
 
@@ -120,6 +120,6 @@ As you can see the above configuration expects the `MEMCACHED_HOST` and `MEMCACH
 
 
 
-#### Redis
+### Redis
 
 TBD
