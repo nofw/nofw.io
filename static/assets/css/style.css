@@ -1,0 +1,16 @@
+#logo-container {
+    height: 100%;
+    padding: 10px 0 10px 0;
+}
+
+#logo-container > img {
+    height: 100%;
+}
+
+#footer-logo {
+    height: 50px;
+}
+
+#index-banner img {
+    height: 100px;
+}
